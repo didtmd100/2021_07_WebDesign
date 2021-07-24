@@ -1,0 +1,112 @@
+/*nor*/
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*lib*/
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.cell {
+    float: left;
+}
+
+/*cus*/
+.main-page {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    width: 1200px;
+    height: 300px;
+    background-color: aliceblue;
+}
+
+header > .logo {
+    width: 200px;
+    height: 100%;
+    background-color: #999;
+}
+
+header > .menu {
+    width: 1000px;
+
+    margin-right: 28px;
+    margin-top: 30px;
+    background-color: #888;
+}
+
+header > .menu > li {
+    width: 25%;
+    text-align: center;
+}
+header > .menu > li >a{
+    padding: 10px;
+    color: white ;
+    display: block;
+    font-size: 15px;
+}
+header > .menu > li:hover >a{
+    background-color: white;
+    color : rgba(0,0,0,.4);
+}
+header > .menu li ul.submenu{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
